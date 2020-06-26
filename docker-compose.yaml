@@ -10,5 +10,10 @@ services:
       - MSSQL_SA_PASSWORD=Password123
       - MSSQL_PID=Developer
     volumes:
-    - ./mssqldata:/var/opt/mssql
-
+      - ./mssqldata:/var/opt/mssql
+  timeseries_generator:
+    build: .
+    links:
+      - "mssql"
+    volumes:
+      - ./dataset:/data
