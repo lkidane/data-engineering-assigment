@@ -1,3 +1,7 @@
 pyodbc
 pymssql
+numpy
+pandas
+pandas_profiling
+seaborn
 .ipynb_checkpoints
