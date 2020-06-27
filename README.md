@@ -57,7 +57,8 @@ We do not expect that you will complete everything. That's perfectly OK! But, pl
 If you get stuck on something, write down your intentions and how you would solve the rest of the tasks. Answer what, why and how you would like to accomplish.
 We want to understand your thought process!
 
-The analyis table is python notebook file 
+# Solution:
+1. Analysis of records of all the tables is done in [Patient Record Analysis.ipynb](https://github.com/lkidane/data-engineering-assigment/blob/master/Patient%20Record%20Analysis.ipynb).
 
 
 
