@@ -11,7 +11,7 @@ services:
       - MSSQL_PID=Developer
     volumes:
       - ./mssqldata:/var/opt/mssql
-  timeseries_generator:
+  timeseries-generator:
     build: .
     links:
       - "mssql"
