@@ -60,5 +60,7 @@ We want to understand your thought process!
 # Solution:
 1. Analysis of records of all the tables is done in [Patient Record Analysis.ipynb](https://github.com/lkidane/data-engineering-assigment/blob/master/Patient%20Record%20Analysis.ipynb).
 
+2. We created a timeseries dataset of each patient based on records of all tables. [create_timeserie_data.py](https://github.com/lkidane/data-engineering-assigment/blob/master/create_timeserie_data.py). It is changed to runnable docker container.
+
 
 
